@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qmlf/ArrowCanvas.qml</file>
+        <file>qmlf/HomeForm.qml</file>
+        <file>qmlf/InteractiveListDelegate.qml</file>
+        <file>qmlf/main.qml</file>
+        <file>qmlf/RecentItemDelegate.qml</file>
+        <file>qmlf/RecentScreenFHC.qml</file>
+        <file>qmlf/RecentScreenQuickControl.qml</file>
+    </qresource>
+</RCC>

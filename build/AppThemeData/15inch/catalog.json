@@ -1,0 +1,6 @@
+{
+    "default": "Ford-MY20-nav/",
+    "theme-bundles": {
+        "Ford-MY20": "Ford-MY20-nav/"
+    }
+}

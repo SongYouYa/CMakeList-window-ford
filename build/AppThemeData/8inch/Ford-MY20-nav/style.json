@@ -1,0 +1,1502 @@
+{
+    "BaseTextStyle": {
+        "elideMode": "dots",
+        "fadeWidth": 50,
+        "fontBold": false,
+        "fontColor": "palette.commonBlackTextColor",
+        "fontFamily": "Ford Antenna S Cd",
+        "fontSize": 29,
+        "letterSpacing": 0,
+        "textAlign": "left"
+    },
+    "IconButtonStyle": {
+        "backgroundAssetId": "button",
+        "borderBottom": -5,
+        "extends": "BaseTextStyle",
+        "iconAssetId": "",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "center",
+        "iconStyle": "tnIconButtonIconStyle",
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 0
+    },
+    "TextPushButtonStyle": {
+        "backgroundAssetId": "button",
+        "backgroundStyle": "tnButtonBackgroundStyle",
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 10,
+        "textPosition": "center",
+        "textStyle": "BaseTextStyle"
+    },
+    "TrafficBarFlowStyle": {
+        "trafficFlowCongestColor": "#d50000",
+        "trafficFlowFreeColor": "#287efa",
+        "trafficFlowOffRoadColor": "#40a2ed",
+        "trafficFlowPassedColor": "#a9b0b2",
+        "trafficFlowSlowColor": "#da7e00"
+    },
+    "aboutViewTextStyle": {
+        "extends": "BaseTextStyle"
+    },
+    "checkboxbuttonStyle": {
+        "checkboxButtonCheckedIcon": "checkboxButtonCheckedIcon",
+        "checkboxButtonUncheckedIcon": "checkboxButtonUncheckedIcon"
+    },
+    "errorToastText": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.statusBarFontColor",
+        "fontSize": 29,
+        "textAlign": "left"
+    },
+    "inputSearchBarStyle": {
+        "clearButtonBackgroundColor": "#00000000",
+        "fontColor": "palette.titleBarFontColor",
+        "fontFamily": "Ford Antenna S Cd",
+        "fontSize": 29,
+        "letterSpacing": "0.0",
+        "searchBarKeyboardFontColor": "palette.searchBarKeyboardFontColor",
+        "searchBarNoKeyboardFontColor": "palette.searchBarNoKeyboardFontColor",
+        "textStyle": "normal"
+    },
+    "intputSearchBarInitTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontSize": 29,
+        "textAlign": "left"
+    },
+    "searchAlongRouteButtonStyle": {
+        "backgroundAssetId": "searchAlongRouteButton",
+        "extends": "IconButtonStyle",
+        "iconPositionHorizontal": "right",
+        "iconPositionVertical": "center",
+        "paddingBottom": 0,
+        "paddingLeft": 16,
+        "paddingRight": 18,
+        "paddingTop": 0,
+        "textAlign": "left",
+        "textStyle": "BaseTextStyle"
+    },
+    "tnAddressBubbleDetailsTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor"
+    },
+    "tnAddressBubbleDistanceTextPressedStyle": {
+        "elide": "Text.ElideRight",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-pressed",
+        "textAlign": "right"
+    },
+    "tnAddressBubbleDistanceTextStyle": {
+        "elide": "Text.ElideRight",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textAlign": "right"
+    },
+    "tnAddressBubbleGoButtonDisabledStyle": {
+        "backgroundAssetId": "tnAddressBubbleGoButtonDisabledBg",
+        "extends": "IconButtonStyle",
+        "fontColor": "palette.tnAddressBubbleGoButtonFontColor",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "top",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 24
+    },
+    "tnAddressBubbleGoButtonSize24Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnAddressBubbleGoButtonFontColor",
+        "fontSize": 24
+    },
+    "tnAddressBubbleGoButtonSize29Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnAddressBubbleGoButtonFontColor",
+        "fontSize": 29
+    },
+    "tnAddressBubbleGoButtonStyle": {
+        "backgroundAssetId": "tnAddressBubbleGoButtonBg",
+        "extends": "IconButtonStyle",
+        "fontColor": "palette.tnAddressBubbleGoButtonFontColor",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "top",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 24
+    },
+    "tnAddressBubbleTextPressedStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-pressed"
+    },
+    "tnAddressBubbleTopTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor"
+    },
+    "tnAlternativeRouteInfoTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-selected",
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnAlternativeRoutesAvoidButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnTitleBarAvoidIcon",
+        "iconHeight": 40,
+        "iconPositionHorizontal": "center",
+        "iconWidth": 40
+    },
+    "tnAlternativeRoutesDistanceSelectStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnFontColorSelected",
+        "textAlign": "right"
+    },
+    "tnAlternativeRoutesDistanceStyle": {
+        "extends": "BaseTextStyle",
+        "textAlign": "right"
+    },
+    "tnAlternativeRoutesEteTextSelectedStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnFontColorSelected",
+        "fontSize": 24,
+        "textAlign": "right"
+    },
+    "tnAlternativeRoutesEteTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontSize": 24,
+        "textAlign": "right"
+    },
+    "tnAlternativeRoutesInfoTextSelectedStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnFontColorSelected"
+    },
+    "tnAlternativeRoutesStyle": {
+        "mapBackgroundColor": "palette.tnBlackColor",
+        "zoomLevel": 3
+    },
+    "tnApproachDestinationTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnApproachTextColor",
+        "textVAlign": "center"
+    },
+    "tnArrowListItemStyle": {
+        "arrowAssetId": "tnArrowButtonRight",
+        "backgroundAssetId": "",
+        "extends": "tnSettingsLineStyle",
+        "iconAssetId": "",
+        "labelTextLeftMargin": 0,
+        "labelTextStyle": "BaseTextStyle",
+        "settingsLineContentRightMargin": 14,
+        "statusFontColor": "palette.fontColor",
+        "statusLabelTextLeftMargin": 10,
+        "statusLabelTextRightMargin": 10,
+        "statusLabelTextStyle": "BaseTextStyle"
+    },
+    "tnAutoSuggestionTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle"
+    },
+    "tnAvoidOnRouteListCheckItemStyle": {
+        "backgroundAssetId": "emptyImage",
+        "horizontalDividerImage": "tnListDivider",
+        "horizontalDividerPadding": 0,
+        "horizontalDividerPosition": "bottom",
+        "iconAssetId": "tnCheckBox",
+        "iconHeight": 32,
+        "iconWidth": 32,
+        "paddingBottom": 18,
+        "paddingLeft": 0,
+        "paddingRight": 18,
+        "paddingSpace": 0,
+        "paddingTop": 18,
+        "textStyle": "tnHighlightedTextStyle"
+    },
+    "tnBackButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnTitleBarBackIcon"
+    },
+    "tnBigOptionButtonStyle": {
+        "backgroundAssetId": "tnBigMapButtonBackgroundItem",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnMapMenuIcon",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "top",
+        "paddingBottom": 10,
+        "paddingTop": 16,
+        "textStyle": "tnSearchButtonTextStyle"
+    },
+    "tnBlackFontSize24Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 24
+    },
+    "tnBlackFontSize29Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29
+    },
+    "tnBlueIndicatorStyle": {
+        "defaultHeight": 54,
+        "defaultWidth": 54,
+        "spinner1AssetId": "tnSpinnerBlueInner",
+        "spinner2AssetId": "tnSpinnerBlueOuter",
+        "spinnerAnimationDuration": 2000
+    },
+    "tnButtonBackgroundDisabledStyle": {
+        "pressedColor": "",
+        "selectedColor": "",
+        "selectedPressedColor": ""
+    },
+    "tnButtonBackgroundStyle": {
+        "pressedColor": "palette.fontColor-pressed",
+        "selectedColor": "palette.fontColor-selected",
+        "selectedPressedColor": "palette.fontColor-pressed"
+    },
+    "tnCheckboxStyle": {
+        "backgroundAssetId": "",
+        "extends": "IconButtonStyle"
+    },
+    "tnCommonBlackTextCenterAlignStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textAlign": "center"
+    },
+    "tnCommonBlackTextHLeftAlignStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnCommonBlackTextRightAlignStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnCommonBlueTextLeftAlignStyle": {
+        "elideMode": "dots",
+        "fadeWidth": 50,
+        "fontBold": false,
+        "fontColor": "palette.fontColor-pressed",
+        "fontFamily": "Ford Antenna S Cd",
+        "fontSize": 29,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnCommonGrayTextLeftAlignStyle": {
+        "elideMode": "dots",
+        "fadeWidth": 50,
+        "fontBold": false,
+        "fontColor": "palette.commonGrayTextColor",
+        "fontFamily": "Ford Antenna S Cd",
+        "fontSize": 29,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnCommonGrayTextRightAlignStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnCommonGrayTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textVAlign": "top"
+    },
+    "tnCommonTextButtonsPopupBodyTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "textAlign": "center"
+    },
+    "tnCommonTextButtonsPopupButtonStyle": {
+        "backgroundAssetId": "tnButtonLightBlueIcon",
+        "extends": "TextPushButtonStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "textPosition": "center"
+    },
+    "tnCommonTextButtonsPopupCheckBoxStyle": {
+        "backgroundAssetId": "emptyImage",
+        "horizontalDividerImage": "tnListDivider",
+        "horizontalDividerPadding": 10,
+        "horizontalDividerPosition": "bottom",
+        "iconAssetId": "tnCheckBox",
+        "iconHeight": 32,
+        "iconWidth": 32,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 40,
+        "paddingSpace": 8,
+        "paddingTop": 2,
+        "textPosition": "right",
+        "textStyle": "tnCommonTextButtonsPopupCheckBoxTextStyle",
+        "width": 458
+    },
+    "tnCommonTextButtonsPopupCheckBoxTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "fontColorSelected": "palette.colorHighlightPrimary",
+        "textAlign": "center"
+    },
+    "tnCommonTextButtonsPopupTitleTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.statusBarFontColor",
+        "textAlign": "center"
+    },
+    "tnContinueTripButtonStyle": {
+        "backgroundAssetId": "tnContinueTripBackground",
+        "extends": "IconButtonStyle",
+        "textStyle": "tnContinueTripTextStyle"
+    },
+    "tnContinueTripTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "textAlign": "center"
+    },
+    "tnCrossingBannerTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 24,
+        "textAlign": "center"
+    },
+    "tnCurrentLocationBarTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "textAlign": "center"
+    },
+    "tnCurrentLocationButtonDisbledStyle": {
+        "backgroundAssetId": "tnCurrentLocationBarBg",
+        "backgroundStyle": "tnButtonBackgroundDisabledStyle",
+        "extends": "TextPushButtonStyle"
+    },
+    "tnCurrentLocationButtonStyle": {
+        "backgroundAssetId": "tnCurrentLocationBarBg",
+        "extends": "TextPushButtonStyle"
+    },
+    "tnDRGReroutePushButtonTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "textAlign": "center"
+    },
+    "tnDRGRerouteTextPushButtonStyle": {
+        "backgroundAssetId": "tnBlueButtonIcon",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "emptyImage",
+        "textStyle": "tnDRGReroutePushButtonTextStyle"
+    },
+    "tnDeleteButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnDeleteIcon"
+    },
+    "tnDestinationAddressNameTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnDestinationAddressNameTextColor",
+        "textAlign": "left"
+    },
+    "tnDestinationAddressStreetTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnDestinationAddressStreetTextColor",
+        "textAlign": "left"
+    },
+    "tnDestinationAddressStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textVAlign": "center"
+    },
+    "tnDestinationCategoryIconTextDisabledStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-disabled",
+        "fontSize": 24,
+        "textAlign": "center"
+    },
+    "tnDestinationCategoryIconTextNormalStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontSize": 24,
+        "textAlign": "center"
+    },
+    "tnDestinationCategoryIconTextPressedStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-pressed",
+        "fontSize": 24,
+        "textAlign": "center"
+    },
+    "tnDestinationEntryScreenStyle": {
+        "autoSuggestionTopMarginHeight": 46,
+        "autoSuggestionTopMarginShort": -6,
+        "gridViewOneRowsHeight": 150,
+        "gridViewTowRowsHeight": 300
+    },
+    "tnDestinationEteStyle": {
+        "extends": "BaseTextStyle",
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnDestinationNameStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "textVAlign": "center"
+    },
+    "tnDestinationNumberStyle": {
+        "extends": "BaseTextStyle",
+        "textAlign": "center"
+    },
+    "tnDestinationPanelDeleteButtonStyle": {
+        "backgroundAssetId": "tnButtonLightblueMedium",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnDeleteIcon"
+    },
+    "tnDestinationPanelPhoneButtonStyle": {
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnInactivePhoneIcon"
+    },
+    "tnDetailFavoriteButtonStyle": {
+        "backgroundAssetId": "tnButtonLightblueSmall",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnUnsavedFavoriteIcon"
+    },
+    "tnDetailMapRelocationButtonStyle": {
+        "backgroundAssetId": "tnMapSqurButtonBackgroundItem",
+        "paddingTop": -3
+    },
+    "tnDetailPhoneButtonStyle": {
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnInactivePhoneIcon"
+    },
+    "tnDismissButtonStyle": {
+        "backgroundAssetId": "tnButtonLightBlueAgvNormal",
+        "extends": "IconButtonStyle",
+        "textStyle": "tnDismissButtonTextStyle"
+    },
+    "tnDismissButtonTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnDestinationAddressNameTextColor",
+        "textAlign": "center"
+    },
+    "tnEditButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnEditIcon"
+    },
+    "tnEmergencyAssistanceMapZoomInButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnEmergencyAssistanceMapZoomInButtonIcon"
+    },
+    "tnEmergencyAssistanceMapZoomOutButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnEmergencyAssistanceMapZoomOutButtonIcon"
+    },
+    "tnEmptyListBackgroundTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "fontSize": 29,
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnEmptyListText": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "lineHeight": 35
+    },
+    "tnEndNavigationButtonStyle": {
+        "backgroundAssetId": "tnButtonLightBlueAgvNormal",
+        "extends": "IconButtonStyle",
+        "textStyle": "tnEndNavigationTextStyle"
+    },
+    "tnEndNavigationTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "textAlign": "center"
+    },
+    "tnEteComparisonFontStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.temperatureFontColor",
+        "fontSize": 29
+    },
+    "tnExitPOIIconStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle"
+    },
+    "tnFavoriteButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnMapSearchBarFavoriteIcon",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "center"
+    },
+    "tnFontSize24Style": {
+        "extends": "BaseTextStyle",
+        "fontSize": 24
+    },
+    "tnFontSize29Style": {
+        "extends": "BaseTextStyle",
+        "fontSize": 29
+    },
+    "tnGoButtonDisabledTextStyle": {
+        "extends": "tnGoButtonTextStyle",
+        "fontColor": "palette.popupBodyTextColor"
+    },
+    "tnGoButtonDurationTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize:": 29,
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnGoButtonIndicatorStyle": {
+        "defaultHeight": 40,
+        "defaultWidth": 40,
+        "spinner1AssetId": "tnSpinnerWhiteInner",
+        "spinner2AssetId": "tnSpinnerWhiteOuter",
+        "spinnerAnimationDuration": 2000
+    },
+    "tnGoButtonTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 29,
+        "textVAlign": "center"
+    },
+    "tnGrayFontSize24Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 24
+    },
+    "tnGrayFontSize29Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 29
+    },
+    "tnGroupRadioButtonStyle": {
+        "buttonSpacing": 2,
+        "extends": "RadioButtonStyle",
+        "fontSize": 29,
+        "horizontalDividerImage": "tnListDivider",
+        "horizontalDividerPadding": 0,
+        "horizontalDividerPosition": "bottom",
+        "iconAssetId": "tnSettingRadioIcon",
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "paddingBottom": 12,
+        "paddingLeft": 23,
+        "paddingRight": 21,
+        "paddingTop": 12,
+        "textAlign": "left",
+        "textPosition": "right",
+        "textStyle": "tnHighlightedTextStyle"
+    },
+    "tnHighlightedFontSize24Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnFontColorSelected",
+        "fontSize": 24
+    },
+    "tnHighlightedFontSize29Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnFontColorSelected",
+        "fontSize": 29
+    },
+    "tnHighlightedTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColorSelected": "palette.tnFontColorSelected"
+    },
+    "tnHighwayButtonStyle": {
+        "backgroundAssetId": "tnMapButtonBackgroundItem",
+        "extends": "IconTwoStatePushButtonStyle"
+    },
+    "tnHotCategoryIconStyle": {
+        "backgroundAssetId": "tnHotCategoryIconBackground",
+        "borderBottom": 0,
+        "extends": "IconTextPushButtonStyle",
+        "iconHeight": 50,
+        "iconPositionVertical": "top",
+        "iconWidth": 50,
+        "paddingTop": 8
+    },
+    "tnIconButtonIconStyle": {
+        "pressedColor": "palette.fontColor-pressed",
+        "selectedColor": "palette.fontColor-selected",
+        "selectedPressedColor": "palette.fontColor-pressed"
+    },
+    "tnInfoButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "titleBarInfoButton"
+    },
+    "tnInformationPopupStyle": {
+        "popupFillBackgroundColor": "#BF000000"
+    },
+    "tnInputTopBarBackButton": {
+        "backgroundAssetId": "",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "searchBarBackButton"
+    },
+    "tnInteractiveGoTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnInteractiveItemDeleteButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnInteractiveDeleteIcon"
+    },
+    "tnInteractiveListDelegateStyle": {
+        "interactiveGoSlideBarColor": "palette.colorHighlightPrimary"
+    },
+    "tnJunctionViewStyle": {
+        "backgroundColor": "palette.tnJvItemsBackgroundColor",
+        "burndownColumnRadius": 3,
+        "distanceSpacing": 6,
+        "midProgressBarColor": "palette.whiteTextColor",
+        "progressBarBackgroundColor": "palette.tnJvRemainItemBgColor",
+        "progressBarColor": "palette.tnProgressBarColor",
+        "progressBarRadius": 1.5,
+        "whiteHeight": 2
+    },
+    "tnJvTextContainerTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor"
+    },
+    "tnJvTextContainerUnitStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 24
+    },
+    "tnKeyLayoutStyle": {
+        "changeLanguageKeyWeight": 120,
+        "keySpacing": -1
+    },
+    "tnKeyboardStyle": {
+        "keyboardBottomMargin": 0,
+        "keyboardLeftMargin": 0,
+        "keyboardRightMargin": 0
+    },
+    "tnLaneAssistantCardStyle": {
+        "horizontalMargins": 30,
+        "spacing": 18
+    },
+    "tnLargeInformationPopupStyle": {
+        "popupHeight": 264,
+        "popupWidth": 538
+    },
+    "tnListCheckItemStyle": {
+        "backgroundAssetId": "emptyImage",
+        "horizontalDividerImage": "tnListDivider",
+        "horizontalDividerPosition": "bottom",
+        "iconAssetId": "tnCheckBox",
+        "iconHeight": 32,
+        "iconWidth": 32,
+        "paddingBottom": 18,
+        "paddingRight": 21,
+        "paddingTop": 18,
+        "textStyle": "tnHighlightedTextStyle"
+    },
+    "tnListDelegateStyle": {
+        "defaultHeight": 68,
+        "defaultWidth": 700,
+        "dividerImage": "tnListDivider",
+        "extends": "IconButtonStyle"
+    },
+    "tnLowFuelDescriptionTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 29,
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnLowFuelTitleTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnMapViewLandscapeStyle": {
+        "mapviewBackgroundColor": "#000000"
+    },
+    "tnMapViewOrientationViewStyle": {
+        "mapBackgroundColor": "palette.tnBlackColor"
+    },
+    "tnMapViewScreenStyle": {
+        "mapBackgroundColor": "palette.tnBlackColor"
+    },
+    "tnMiniNextManeuverAddressTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 23,
+        "maximumLineCount": 2,
+        "textAlign": "left"
+    },
+    "tnMinimizedPanelDistanceTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontFamily": "Ford Antenna S MdCd",
+        "fontSize": 32,
+        "textAlign": "left"
+    },
+    "tnNavigationButtonMinimizedStyle": {
+        "backgroundAssetId": "",
+        "extends": "IconButtonStyle",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "center"
+    },
+    "tnNavigationButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "top"
+    },
+    "tnNavigationButtonTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontSize": 24,
+        "maximumLineCount": 1,
+        "textAlign": "center",
+        "textNormalColor": "palette.commonBlackTextColor",
+        "textPressedColor": "palette.fontColor-pressed"
+    },
+    "tnNextManeuverAddressTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 29,
+        "maximumLineCount": 2,
+        "textAlign": "center"
+    },
+    "tnNextManeuverDistTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 32,
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnNextManeuverQuickTAddressTextStyle": {
+        "extends": "tnNextManeuverAddressTextStyle",
+        "maximumLineCount": 2,
+        "textAlign": "left"
+    },
+    "tnNextManeuverQuickTDistTextStyle": {
+        "extends": "tnNextManeuverDistTextStyle",
+        "textAlign": "left"
+    },
+    "tnOffroadBarRemindTextStyle": {
+        "extends": "tnNextManeuverAddressTextStyle",
+        "fontSize": 24,
+        "maximumLineCount": 1,
+        "textAlign": "left"
+    },
+    "tnOptionButtonStyle": {
+        "backgroundAssetId": "tnMapButtonBackgroundItem",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnMapMenuIcon",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "center",
+        "paddingBottom": 4
+    },
+    "tnOptionsDetailTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontSize": 24
+    },
+    "tnOptionsGridViewStyle": {
+        "bottomMargin": 15,
+        "height": 330,
+        "iconSpacing": 6,
+        "leftMargin": 8,
+        "rightMargin": 8,
+        "topMargin": 2,
+        "width": 800
+    },
+    "tnOptionsMenuIconStyle": {
+        "borderBottom": 0,
+        "extends": "IconTextPushButtonStyle",
+        "iconHeight": 50,
+        "iconPositionVertical": "top",
+        "iconWidth": 50,
+        "paddingBottom": 44,
+        "paddingTop": 14
+    },
+    "tnPoiDetailsAddressStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textVAlign": "center"
+    },
+    "tnPoiDetailsDistanceStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnPoiDetailsNameStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textVAlign": "center"
+    },
+    "tnPopupBodyTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "textAlign": "center"
+    },
+    "tnPopupCloseButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "iconAssetId": "tnCloseIcon",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "center"
+    },
+    "tnPopupConfirmButtonStyle": {
+        "backgroundAssetId": "popupButtonItem",
+        "extends": "IconButtonStyle",
+        "paddingBottom": 4,
+        "textAlign": "center",
+        "textStyle": "BaseTextStyle"
+    },
+    "tnPopupGroupRadioButtonStyle": {
+        "extends": "tnGroupRadioButtonStyle",
+        "paddingBottom": 18,
+        "paddingLeft": 9,
+        "paddingRight": 0,
+        "paddingSpace": 21,
+        "paddingTop": 17
+    },
+    "tnPopupMaskStyle": {
+        "maskRadius": 3
+    },
+    "tnPopupTextButtonStyle": {
+        "extends": "BaseTextStyle",
+        "textAlign": "center"
+    },
+    "tnPredictCardArrivalTitleTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "fontColor": "palette.tnPredictCardArrivalViewTitleBlack",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnPredictCardArrivalViewAddressTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "fontColor": "palette.tnPredictCardArrivalViewContentGray",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnPredictCardArrivalViewUnitTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnPredictCardArrivalViewContentGray",
+        "fontSize": 24
+    },
+    "tnPredictCardColorStyle": {
+        "etaGreen": "palette.tnPredictCardEtaGreen",
+        "etaOrange": "palette.tnPredictCardEtaOrange",
+        "etaRed": "palette.tnPredictCardEtaRed",
+        "trafficBlue": "palette.tnPredictCardTrafficBarBlue",
+        "trafficGrey": "palette.tnPredictCardTrafficBarGrey",
+        "trafficOrange": "palette.tnPredictCardTrafficBarOrange",
+        "trafficRed": "palette.tnPredictCardTrafficBarRed"
+    },
+    "tnPredictCardEtaTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "textVAlign": "center"
+    },
+    "tnPredictCardGoButtonEteTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 24,
+        "rigntPadding": 14,
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnPredictCardGoButtonTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 24,
+        "leftPadding": 14,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnPredictCardNameTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnPredictCardTimeTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "fontSize": 24,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnPredictCardViaStreetTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontBold": false,
+        "fontColor": "palette.temperatureFontColor",
+        "fontSize": 24,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnPredictiveCardStarRecStyle": {
+        "backgroundAssetId": "tnButtonLightblueSmall",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "center"
+    },
+    "tnPredictiveCardWarningViewStyle": {
+        "backgroundColor": "#000000",
+        "backgroundOpacity": 0.75
+    },
+    "tnPredictiveCardsAddressDetailAddressLabelStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "fontSize": 29,
+        "textAlign": "left"
+    },
+    "tnPredictiveCardsAddressDetailSummaryLabelStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.statusBarFontColor",
+        "fontSize": 29,
+        "textAlign": "left"
+    },
+    "tnPredictiveCardsEditSummary": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "lineHeight": 35,
+        "textAlign": "center"
+    },
+    "tnPredictiveCardsRemoveWarningTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.colorHighlightPrimary",
+        "fontSize": 29,
+        "textAlign": "center"
+    },
+    "tnPredictiveCardsWarningTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "fontSize": 29,
+        "textAlign": "center"
+    },
+    "tnPredictiveCardsWarningTitleTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.statusBarFontColor",
+        "fontSize": 29,
+        "textAlign": "center"
+    },
+    "tnPrivacyDisabledTextStype": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnPrivacyDisableTextColor"
+    },
+    "tnPrivacyEnabledTextStype": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor"
+    },
+    "tnQuickTurnAddressStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.temperatureFontColor",
+        "fontSize": 24,
+        "textAlign": "left"
+    },
+    "tnQuickTurnDistanceStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.temperatureFontColor",
+        "fontSize": 24,
+        "textAlign": "left"
+    },
+    "tnRatingReviewContentTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 24
+    },
+    "tnRealReachOverviewButtonStyle": {
+        "backgroundAssetId": "tnMapButtonBackgroundItem",
+        "extends": "IconTwoStatePushButtonStyle"
+    },
+    "tnRecentButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnMapSearchBarRecentIcon",
+        "paddingBottom": 1
+    },
+    "tnRecenterButtonStyle": {
+        "backgroundAssetId": "tnRecenterButtonBg",
+        "extends": "IconButtonStyle"
+    },
+    "tnRelocationButtonStyle": {
+        "backgroundAssetId": "tnMapSqurButtonBackgroundItem",
+        "iconAssetId": "tnRelocationIcon"
+    },
+    "tnRemoveTripButtonStyle": {
+        "backgroundAssetId": "tnButtonLightBlueIcon",
+        "extends": "IconButtonStyle",
+        "textStyle": "tnPoiDetailsNameStyle"
+    },
+    "tnResetViewTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "maximumLineCount": 1,
+        "textAlign": "center"
+    },
+    "tnResumeBubbleAddressTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor"
+    },
+    "tnResumeDistanceTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textAlign": "right"
+    },
+    "tnResumeEteTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "textAlign": "center"
+    },
+    "tnResumeTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor"
+    },
+    "tnRouteOptionButtonDisabledStyle": {
+        "extends": "IconButtonStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "iconPositionHorizontal": "left",
+        "paddingLeft": 28,
+        "textStyle": "tnRouteOptionButtonTextDisabledStyle"
+    },
+    "tnRouteOptionButtonStyle": {
+        "extends": "IconButtonStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "iconPositionHorizontal": "left",
+        "paddingLeft": 28,
+        "textStyle": "tnRouteOptionButtonTextStyle"
+    },
+    "tnRouteOptionButtonTextDisabledStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "fontSize": 24
+    },
+    "tnRouteOptionButtonTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontSize": 24
+    },
+    "tnScaleBarStyle": {
+        "backgroundRectColor": "palette.ScaleBarBgColor",
+        "foregroundRectColor": "palette.ScaleBarColor"
+    },
+    "tnScaleBarTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 20
+    },
+    "tnSearchBarTextBoxStyle": {
+        "backgroundAssetId": "tnSearchbarButton",
+        "extends": "IconTextPushButtonStyle",
+        "iconAssetId": "tnMapSearchIcon",
+        "iconPositionHorizontal": "left",
+        "iconPositionVertical": "center",
+        "paddingBottom": 12,
+        "paddingLeft": 190,
+        "paddingRight": 166,
+        "textPosition": "center",
+        "textStyle": "tnSearchBarTextBoxTextStyle"
+    },
+    "tnSearchBarTextBoxTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textVAlign": "center"
+    },
+    "tnSearchButtonStyle": {
+        "backgroundAssetId": "tnBigMapButtonBackgroundItem",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnMapSearchIcon",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "top",
+        "paddingBottom": 10,
+        "paddingTop": 16,
+        "textStyle": "tnSearchButtonTextStyle"
+    },
+    "tnSearchButtonTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColorPressed": "palette.colorHighlightPrimary",
+        "fontSize": 24,
+        "textAlign": "center"
+    },
+    "tnSearchMapStyle": {
+        "zoom_level": 3
+    },
+    "tnSearchModeButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "emptyImage",
+        "paddingLeft": 17,
+        "textStyle": "tnSearchModeButtonTextStyle"
+    },
+    "tnSearchModeButtonTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "fontColorSelected": "palette.tnFontColorSelected"
+    },
+    "tnSearchResultTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textVAlign": "top"
+    },
+    "tnSecondLineTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 24
+    },
+    "tnSettingRadioButtonStyle": {
+        "extends": "tnGroupRadioButtonStyle",
+        "paddingLeft": 0,
+        "textPosition": "left"
+    },
+    "tnSettingsLineStyle": {
+        "extends": "tnListDelegateStyle",
+        "infoDividerBottomMargin": 10,
+        "infoDividerLeftMargin": 10,
+        "infoDividerRightMargin": 14,
+        "infoDividerTopMargin": 10,
+        "verticalDividerImage": ""
+    },
+    "tnSettingsToastTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textVAlign": "center"
+    },
+    "tnSmallInformationPopupStyle": {
+        "popupHeight": 229,
+        "popupWidth": 538
+    },
+    "tnSmallRecenterButtonStyle": {
+        "backgroundAssetId": "tnSmallRecenterButtonBackground",
+        "iconAssetId": "tnRecenterButtonIcon",
+        "paddingTop": -3
+    },
+    "tnSortButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnSortButtonIcon"
+    },
+    "tnSortLabelTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.titleBarFontColor",
+        "fontSize": 29,
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnSortOptionButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "textStyle": "tnSortOptionButtonTextStyle"
+    },
+    "tnSortOptionButtonTextSelectedStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.tnFontColorSelected",
+        "textAlign": "center"
+    },
+    "tnSortOptionButtonTextStyle": {
+        "extends": "BaseTextStyle",
+        "textAlign": "center"
+    },
+    "tnSortUpArrowButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnSortUpArrowButtonIcon"
+    },
+    "tnSpecialListItemAddressDetailDisabledTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-disabled",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnSpecialListItemAddressDetailTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnSpecialListItemAddressNameDisabledTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-disabled",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnSpecialListItemAddressNameTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnSpecialListItemDistanceDisabledTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.fontColor-disabled",
+        "fontSize": 29,
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnSpecialListItemDistanceTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.popupBodyTextColor",
+        "fontSize": 29,
+        "textAlign": "right",
+        "textVAlign": "center"
+    },
+    "tnSpeedLimitSignTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontFamily": "Ford Antenna S MdCd",
+        "fontSize": 30,
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnStartButtonTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor"
+    },
+    "tnSuggestionItemStyle": {
+        "extends": "BaseTextStyle",
+        "highlightColor": "palette.tnFontColorSelected",
+        "separatorColor": "#a9b0b8"
+    },
+    "tnTextPushButtonStyle": {
+        "backgroundAssetId": "popupButtonItem",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "emptyImage",
+        "textStyle": "tnTextPushButtonTextStyle"
+    },
+    "tnTextPushButtonTextStyle": {
+        "elideMode": "fade",
+        "extends": "BaseTextStyle",
+        "textAlign": "center"
+    },
+    "tnTitleBarTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.titleBarFontColor",
+        "fontSize": 29,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnToggleSwitchStyle": {
+        "horizontalDividerImage": "tnListDivider",
+        "horizontalDividerPosition": "bottom",
+        "paddingBottom": 17,
+        "paddingLeft": 0,
+        "paddingRight": 20,
+        "paddingTop": 19,
+        "textStyle": "tnHighlightedTextStyle",
+        "toggleBackgroundAssetId": "tnSwitchBackground",
+        "toggleHandleAssetId": "tnSwitchHandle"
+    },
+    "tnTopBarTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor"
+    },
+    "tnTrafficDetailContentTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnTrafficDetailDismissTextPushButtonStyle": {
+        "backgroundAssetId": "tnButtonLightBlueIcon",
+        "extends": "TextPushButtonStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "textPosition": "center"
+    },
+    "tnTrafficDetailScrollStyle": {
+        "hasScrollButtons": false,
+        "scrollBarMargin": 14,
+        "scrollBarRightMargin": 12
+    },
+    "tnTrafficDetailTextScrollStyle": {
+        "hasScrollButtons": false,
+        "scrollBarContentMargin": 0,
+        "scrollBarMargin": 0
+    },
+    "tnTrafficDetailTitleTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "lineHight": 40,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnTrailerTowingButtonStyle": {
+        "backgroundAssetId": "tnMapButtonBackgroundItem",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnMapTrailerTowingButtonIcon"
+    },
+    "tnTripDeleteButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnTripDeleteIcon"
+    },
+    "tnTripPlanningAddButtonStyle": {
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnActiveAddIcon"
+    },
+    "tnTurnBarAddressTextStyle": {
+        "extends": "tnNextManeuverAddressTextStyle",
+        "maximumLineCount": 1,
+        "textAlign": "left"
+    },
+    "tnTurnListButtonStyle": {
+        "iconAssetId": "tnArrowUpWhite",
+        "iconPositionVertical": "center"
+    },
+    "tnTurnListCloseButtonStyle": {
+        "backgroundAssetId": "emptyImage",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnArrowDownWhite",
+        "iconPositionVertical": "center"
+    },
+    "tnTurnListDelegateStyle": {
+        "turnListHeaderBackgroundColor": "palette.tnDarkBlueColor"
+    },
+    "tnTurnListElementTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor",
+        "fontSize": 24,
+        "textAlign": "left"
+    },
+    "tnTurnListHeaderElementTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 29,
+        "textAlign": "left"
+    },
+    "tnWaypointBubbleDeleteButtonStyle": {
+        "backgroundAssetId": "tnWaypointDeleteButtonBg",
+        "extends": "IconButtonStyle",
+        "iconAssetId": "tnDeleteWhite",
+        "iconPositionHorizontal": "center",
+        "iconPositionVertical": "center"
+    },
+    "tnWaypointBubbleDetailsStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonGrayTextColor"
+    },
+    "tnWaypointBubbleTitleStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "textAlign": "left"
+    },
+    "tnWaypointScreenStyle": {
+        "height": 419,
+        "topMargin": 68,
+        "width": 398
+    },
+    "tnWhereAmIFirstLineTextStyle": {
+        "elideMode": "dots",
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnWhereAmISaveButtonStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.commonBlackTextColor",
+        "fontSize": 29,
+        "textAlign": "center"
+    },
+    "tnWhereAmISecondLineTextStyle": {
+        "elideMode": "dots",
+        "fadeWidth": 50,
+        "fontBold": false,
+        "fontColor": "palette.commonGrayTextColor",
+        "fontFamily": "Ford Antenna S Cd",
+        "fontSize": 29,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "textVAlign": "center"
+    },
+    "tnWhiteFontSize24Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 24
+    },
+    "tnWhiteFontSize29Style": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 29
+    },
+    "tnWordSuggestionItemStyle": {
+        "evenItemColor": "palette.tnWordSuggestionItemEvenColor",
+        "itemMinWidth": 48,
+        "oddItemColor": "palette.tnWordSuggestionItemOddColor",
+        "textLeftRectLong": 24,
+        "textLeftRectShort": 20,
+        "textRightRectLong": 24,
+        "textRightRectShort": 20
+    },
+    "tnWordSuggestionItemTextStyle": {
+        "extends": "BaseTextStyle",
+        "fontColor": "palette.whiteTextColor",
+        "fontSize": 29,
+        "textAlign": "center",
+        "textVAlign": "center"
+    },
+    "tnWordSuggestionScreenStyle": {
+        "listMaxWidth": 615,
+        "wordSuggestionItemHeight": 61
+    }
+}
