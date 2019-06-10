@@ -1,62 +1,69 @@
 import QtQuick 2.12
+import QtQuick.Controls 2.2
+import QtQuick.Layouts 1.0
+ListView{
+    id:listView
+    anchors.fill: parent
+    model: 10
+    snapMode: ListView.SnapOneItem
+    orientation:ListView.Horizontal
+    delegate: Rectangle{
+        id:contentRect
+        width: 170
+        height: 140
+        opacity: 0.7
+        Image {
+            anchors.fill: contentRect
+            source: "qrc:qmlf/8inch/btn-tile-disable.png"
+        }
 
-import com.ford.hmicontrols 1.0 as FHC
+        Image {
+            id: pic
+            width: 50
+            height:50
+            anchors{
+                left:contentRect.left
+                leftMargin: 50
+                top:contentRect.top
+                topMargin: 7
+            }
+            //   anchors.top: rootRect.top
+            source: "qrc:qmlf/8inch/icon-60-call-disable.png"
+        }
+        Text {
+            id: label
+            anchors.top: pic.bottom
+            anchors.topMargin: 12
+            anchors.bottomMargin : 12
+            anchors.horizontalCenter: pic.horizontalCenter
+            text: qsTr("Call Me")// This is available in all editors.
+            color: "#4b4e4f"
+            font.pixelSize :25
 
-FHC.Layout
-{
-FHC.ListViewControl {
-    id: carListView
-    model: carModel
-    width: 700
-    height: 320
-    rows: 4
+        }
 
-//            listItemHeight: 100
-    clip: true
-    //this is just an example of a possible datamodel
-    ListModel {
-        id: carModel
-        ListElement { label: "Fiesta 1" }
-        ListElement { label: "Focus 1" }
-        ListElement { label: "Fusion 1" }
-        ListElement { label: "C-Max 1" }
-        ListElement { label: "Mustang 2" }
-        ListElement { label: "Taurus 2" }
-        ListElement { label: "Escape 2" }
-        ListElement { label: "Edge 2" }
+        states: [
+            State{
+                name: "clicked"
+                PropertyChanges { target: label; color: "green"}
+                PropertyChanges { target: pic;  source: "qrc:qmlf/8inch/icon-60-call-green.png"}
+            },
+            State{
+                name: "unciked"
+                PropertyChanges { target: label; color: "#768085"}
+                PropertyChanges { target: pic;  source: "qrc:qmlf/8inch/icon-60-call-disable.png"}
+            }
+        ]
 
-        ListElement { label: "Fiesta 3" }
-        ListElement { label: "Focus 3" }
-        ListElement { label: "Fusion 3" }
-        ListElement { label: "C-Max 3" }
-        ListElement { label: "Mustang 4" }
-        ListElement { label: "Taurus 4" }
-        ListElement { label: "Escape 4" }
-        ListElement { label: "Edge 4" }
-
-        ListElement { label: "Fiesta 5" }
-        ListElement { label: "Focus 5" }
-        ListElement { label: "Fusion 5" }
-        ListElement { label: "C-Max 5" }
-        ListElement { label: "Mustang 6" }
-        ListElement { label: "Taurus 6" }
-        ListElement { label: "Escape 6" }
-        ListElement { label: "Edge 6" }
-
-        ListElement { label: "Fiesta 7" }
-        ListElement { label: "Focus 7" }
-        ListElement { label: "Fusion 7" }
-        ListElement { label: "C-Max 7" }
-        ListElement { label: "Mustang 8" }
-        ListElement { label: "Taurus 8" }
-        ListElement { label: "Escape 8" }
-        ListElement { label: "Edge 8" }
-
-
+        MouseArea{
+            anchors.fill: parent
+            onPressed: {
+                contentRect.state === "clicked" ? contentRect.state = "" : contentRect.state = "clicked";
+                contentRect.textButtonClicked()
+            }
+            onReleased: {
+                contentRect.state = "unciked"
+            }
+        }
     }
-
-    onListItemClicked: {
-        console.log("List item clicked: " + index)
-    }
-}
 }

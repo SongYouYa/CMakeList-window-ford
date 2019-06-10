@@ -41,7 +41,7 @@ ApplicationWindow {
 
         Column {
             anchors.fill: parent
-
+///******************************RecentPageComponent*********************////
             ItemDelegate {
                 text: qsTr("RecentScreen-QT")
                 width: parent.width
@@ -64,24 +64,39 @@ ApplicationWindow {
                     drawer.close()
                 }
             }
+///******************************ListComponent*********************////
+            ItemDelegate {
+                text: qsTr("List-qt")
+                width: parent.width
+
+                onClicked: {
+                    console.time("qmlscence RecentScreenFHC recent view#################################################");
+                    stackView.push("qrc:qmlf/QtControls/QtListPushTextButtonListView.qml")
+                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
+                    drawer.close()
+                }
+            }
+
+            ItemDelegate {
+                text: qsTr("List-FORD")
+                width: parent.width
+
+                onClicked: {
+                    console.time("qmlscence RecentScreenFHC recent view#################################################");
+                    stackView.push("qrc:FordGridViewGallery.qml")
+                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
+                    drawer.close()
+                }
+            }
+
+///******************************GridComponent*********************////
             ItemDelegate {
                 text: qsTr("RecentScreen-FORD")
                 width: parent.width
 
                 onClicked: {
                     console.time("qmlscence RecentScreenFHC recent view#################################################");
-                    stackView.push("qrc:qmlf/FordControls/FordControls/FordListPushTextButtonListView.qml")
-                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
-                    drawer.close()
-                }
-            }
-            ItemDelegate {
-                text: qsTr("QtListPushTextButtonListView")
-                width: parent.width
-
-                onClicked: {
-                    console.time("qmlscence RecentScreenFHC recent view#################################################");
-                    stackView.push("qrc:qmlf/QtControls/QtListPushTextButtonListView .qml")
+                    stackView.push("qrc:qmlf/QtControls/MapManuButton.qml")
                     console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
                     drawer.close()
                 }

@@ -11,10 +11,8 @@
         <file>qmlf/FordControls/DemoTest.qml</file>
         <file>qmlf/FordControls/FordGridPushTextButtonListView.qml</file>
         <file>qmlf/FordControls/FordIconTextPushButton.qml</file>
-        <file>qmlf/FordControls/FordListPushTextButtonListView.qml</file>
         <file>qmlf/QtControls/QtGridtPushTextButtonListView.qml</file>
         <file>qmlf/QtControls/QtIconTextPushButton.qml</file>
-        <file>qmlf/QtControls/QtListPushTextButtonListView .qml</file>
         <file>qmlf/QtControls/QtListPushTextButtonListView.qml</file>
         <file>qmlf/8inch/bg-ag-exits.png</file>
         <file>qmlf/8inch/bg-floating-panel-small.png</file>
@@ -30,5 +28,9 @@
         <file>qmlf/8inch/icon-60-call-green.png</file>
         <file>qmlf/8inch/icon-60-delete-dark-blue.png</file>
         <file>qmlf/8inch/icon-call-disable.png</file>
+        <file>qmlf/QtControls/MapManuButton.qml</file>
+        <file>qmlf/FordControls/gridlistview/Gallery.qml</file>
+        <file>qmlf/FordControls/gridlistview/GalleryExhibit.qml</file>
+        <file>qmlf/FordControls/gridlistview/FordGridViewGallery.qml</file>
     </qresource>
 </RCC>

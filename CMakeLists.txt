@@ -35,7 +35,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL Windows)
         "qmlf/RecentItemDelegate.qml"
         "qmlf/InteractiveListDelegate.qml"
         "qmlf/ArrowCanvas.qml"
-
+        "qmlf/FordControls/gridlistview/qmlgrid.qrc"
         )
 
     target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Quick)
