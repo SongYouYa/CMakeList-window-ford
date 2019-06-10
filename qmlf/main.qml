@@ -64,6 +64,28 @@ ApplicationWindow {
                     drawer.close()
                 }
             }
+            ItemDelegate {
+                text: qsTr("RecentScreen-FORD")
+                width: parent.width
+
+                onClicked: {
+                    console.time("qmlscence RecentScreenFHC recent view#################################################");
+                    stackView.push("qrc:qmlf/FordControls/FordControls/FordListPushTextButtonListView.qml")
+                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
+                    drawer.close()
+                }
+            }
+            ItemDelegate {
+                text: qsTr("QtListPushTextButtonListView")
+                width: parent.width
+
+                onClicked: {
+                    console.time("qmlscence RecentScreenFHC recent view#################################################");
+                    stackView.push("qrc:qmlf/QtControls/QtListPushTextButtonListView .qml")
+                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
+                    drawer.close()
+                }
+            }
         }
     }
 

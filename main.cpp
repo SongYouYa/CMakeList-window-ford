@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 #endif
      const QString appRootDir = app.applicationDirPath();
      qputenv("HMI_APP_THEME_BASE", QDir::toNativeSeparators(appRootDir + "/AppThemeData/12inch").toLatin1());
-    // qputenv("HMI_THEME_BASE", QDir::toNativeSeparators(appRootDir + "/../HMIThemeData").toLatin1());
+     qputenv("HMI_THEME_BASE", QDir::toNativeSeparators(appRootDir + "/HMIThemeData").toLatin1());
      engine.rootContext()->setContextProperty("applicationDirPath", appRootDir);
      ctxt->setContextProperty("defaultGallery", qgetenv("HMI_DEFAULT_GALLERY"));
     // Expose context properties for system information

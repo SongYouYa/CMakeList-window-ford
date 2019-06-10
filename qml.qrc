@@ -8,5 +8,27 @@
         <file>qmlf/RecentItemDelegate.qml</file>
         <file>qmlf/RecentScreenFHC.qml</file>
         <file>qmlf/RecentScreenQuickControl.qml</file>
+        <file>qmlf/FordControls/DemoTest.qml</file>
+        <file>qmlf/FordControls/FordGridPushTextButtonListView.qml</file>
+        <file>qmlf/FordControls/FordIconTextPushButton.qml</file>
+        <file>qmlf/FordControls/FordListPushTextButtonListView.qml</file>
+        <file>qmlf/QtControls/QtGridtPushTextButtonListView.qml</file>
+        <file>qmlf/QtControls/QtIconTextPushButton.qml</file>
+        <file>qmlf/QtControls/QtListPushTextButtonListView .qml</file>
+        <file>qmlf/QtControls/QtListPushTextButtonListView.qml</file>
+        <file>qmlf/8inch/bg-ag-exits.png</file>
+        <file>qmlf/8inch/bg-floating-panel-small.png</file>
+        <file>qmlf/8inch/bg-floating-panel-xxl.png</file>
+        <file>qmlf/8inch/bg-pop-up-no-headline.png</file>
+        <file>qmlf/8inch/bg-screen-lightblue-Night.png</file>
+        <file>qmlf/8inch/btn-lightblue-660-pressed.png</file>
+        <file>qmlf/8inch/btn-lightblue-poi.png</file>
+        <file>qmlf/8inch/btn-tile-disable.png</file>
+        <file>qmlf/8inch/catalog.json</file>
+        <file>qmlf/8inch/icon-50-recents-dark-blue.png</file>
+        <file>qmlf/8inch/icon-60-call-disable.png</file>
+        <file>qmlf/8inch/icon-60-call-green.png</file>
+        <file>qmlf/8inch/icon-60-delete-dark-blue.png</file>
+        <file>qmlf/8inch/icon-call-disable.png</file>
     </qresource>
 </RCC>
