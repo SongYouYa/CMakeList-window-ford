@@ -28,13 +28,6 @@ if(CMAKE_SYSTEM_NAME STREQUAL Windows)
 
 
     add_executable(${PROJECT_NAME} "main.cpp" "qml.qrc"
-        "qmlf/main.qml"
-        "qmlf/HomeForm.qml"
-        "qmlf/RecentScreenQuickControl.qml"
-        "qmlf/RecentScreenFHC.qml"
-        "qmlf/RecentItemDelegate.qml"
-        "qmlf/InteractiveListDelegate.qml"
-        "qmlf/ArrowCanvas.qml"
         "qmlf/FordControls/gridlistview/qmlgrid.qrc"
 	"src/utiltool/CFilterWordsLog.cpp"
 	"src/utiltool/CFilterWordsLog.h"	

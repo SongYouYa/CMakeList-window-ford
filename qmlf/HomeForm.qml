@@ -14,7 +14,7 @@ Page {
            }
      anchors{
       left: parent.left
-      leftMargin: 300
+      leftMargin: 230
       top: parent.top
       topMargin: 300
      }

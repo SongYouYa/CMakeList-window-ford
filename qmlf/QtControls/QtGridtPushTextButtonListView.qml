@@ -2,11 +2,11 @@ import QtQuick 2.12
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.0
 GridView{
-    id:GridView
+    id:gridView
     anchors.fill: parent
-    model: 10
-    snapMode: GridView.SnapOneItem
-    GridView.orientation:GridView.Horizontal
+    model: 30
+    cellWidth: 170; cellHeight: 140
+    snapMode: ListView.SnapOneItem
     delegate: Rectangle{
         id:contentRect
         width: 170
@@ -65,5 +65,7 @@ GridView{
                 contentRect.state = "unciked"
             }
         }
+
     }
+
 }
