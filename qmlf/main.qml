@@ -41,15 +41,15 @@ ApplicationWindow {
 
         Column {
             anchors.fill: parent
-///******************************RecentPageComponent*********************////
+            ///******************************RecentPageComponent*********************////
             ItemDelegate {
                 text: qsTr("RecentScreen-QT")
                 width: parent.width
                 onClicked: {
 
-                    console.time("qmlscence RecentScreenQuickControl recent view##########################################");
+                    console.time("RScreen-QT##########################################");
                     stackView.push("RecentScreenQuickControl.qml")
-                    console.timeEnd("qmlscence RecentScreenQuickControl recent view##########################################");
+                    console.timeEnd("RScreen-QT##########################################");
                     drawer.close()
                 }
             }
@@ -58,55 +58,94 @@ ApplicationWindow {
                 width: parent.width
 
                 onClicked: {
-                    console.time("qmlscence RecentScreenFHC recent view#################################################");
+                    console.time("RScreen-FD#################################################");
                     stackView.push("RecentScreenFHC.qml")
-                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
-                    drawer.close()
-                }
-            }
-///******************************ListComponent*********************////
-            ItemDelegate {
-                text: qsTr("List-qt")
-                width: parent.width
-
-                onClicked: {
-                    console.time("qmlscence RecentScreenFHC recent view#################################################");
-                    stackView.push("qrc:qmlf/QtControls/QtListPushTextButtonListView.qml")
-                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
+                    console.timeEnd("RScreen-FD#################################################");
                     drawer.close()
                 }
             }
 
+
+            ///******************************GridComponent*********************////
             ItemDelegate {
-                text: qsTr("List-FORD")
+                text: qsTr("Single Componet PushTextButton")
                 width: parent.width
 
                 onClicked: {
-                    console.time("qmlscence RecentScreenFHC recent view#################################################");
-                    stackView.push("qrc:FordGridViewGallery.qml")
-                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
-                    drawer.close()
-                }
-            }
-
-///******************************GridComponent*********************////
-            ItemDelegate {
-                text: qsTr("RecentScreen-FORD")
-                width: parent.width
-
-                onClicked: {
-                    console.time("qmlscence RecentScreenFHC recent view#################################################");
+                    console.time("QtAdFdPage#################################################");
                     stackView.push("qrc:qmlf/QtControls/MapManuButton.qml")
-                    console.timeEnd("qmlscence RecentScreenFHC recent view#################################################");
+                    console.timeEnd("QtAdFdPage#################################################");
                     drawer.close()
                 }
             }
+            ///******************************ListComponent*********************////
+            ItemDelegate {
+                text: qsTr("List-Qt")
+                width: parent.width
+
+                onClicked: {
+                    console.time("List----Qt#################################################");
+                    stackView.push("qrc:qmlf/QtControls/QtListPushTextButtonListView.qml")
+                    console.timeEnd("List----Qt#################################################");
+                    drawer.close()
+                }
+            }
+
+            ItemDelegate {
+                text: qsTr("List-Ford")
+                width: parent.width
+
+                onClicked: {
+                    console.time("List--Ford#################################################");
+                    stackView.push("qrc:FordListViewGallery.qml")
+                    console.timeEnd("List--Ford#################################################");
+                    drawer.close()
+                }
+            }
+            ///******************************GridComponent*********************////
+            ItemDelegate {
+                text: qsTr("Grid-Qt")
+                width: parent.width
+
+                onClicked: {
+                    console.time("Grid----Qt#################################################");
+                    stackView.push("qrc:qmlf/QtControls/QtGridtPushTextButtonListView.qml")
+                    console.timeEnd("Grid----Qt#################################################");
+                    drawer.close()
+                }
+            }
+
+            ItemDelegate {
+                text: qsTr("Grid-Ford")
+                width: parent.width
+
+                onClicked: {
+                    console.time("Grid--Ford#################################################");
+                    stackView.push("qrc:FordGridViewGallery.qml")
+                    console.timeEnd("Grid--Ford#################################################");
+                    drawer.close()
+                }
+            }
+
+            /*   testDemo */
+            ItemDelegate {
+                text: qsTr("ShowResult")
+                width: parent.width
+
+                onClicked: {
+                    console.time("TestDemo#################################################");
+                    stackView.push("tableModuleView/TableShowWidget.qml")
+                    console.timeEnd("TestDemo#################################################");
+                    drawer.close()
+                }
+            }
+
         }
     }
 
     StackView {
         id: stackView
-        initialItem: "HomeForm.qml"
+        initialItem: "qrc:qmlf/HomeForm.qml"
         anchors.fill: parent
     }
 }

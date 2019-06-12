@@ -36,6 +36,8 @@ if(CMAKE_SYSTEM_NAME STREQUAL Windows)
         "qmlf/InteractiveListDelegate.qml"
         "qmlf/ArrowCanvas.qml"
         "qmlf/FordControls/gridlistview/qmlgrid.qrc"
+	"src/utiltool/CFilterWordsLog.cpp"
+	"src/utiltool/CFilterWordsLog.h"	
         )
 
     target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Quick)

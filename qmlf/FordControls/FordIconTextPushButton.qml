@@ -8,7 +8,7 @@ Column{
         model:5
         FHC.IconTextPushButton {
             text: qsTr("Call Me")
-            styleId: "topIconTextPushButtonStyle"
+            styleId: "rightIconTextPushButtonStyle"
             iconAssetId: "settingsBluetooth"
             width: 180
             height: 150

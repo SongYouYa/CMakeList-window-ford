@@ -4,6 +4,7 @@ import com.ford.hmicontrols 1.0 as HMIControls
 Item {
 
     anchors.fill: parent
+
     Image {
         id: background
         fillMode: Image.TileHorizontally
@@ -42,27 +43,21 @@ Item {
         {"label":"Focus 6", "icon":"tractionControl"}
     ]
 
-    HMIControls.ListViewControl {
-        id: carListView
-        orientation: Qt.Horizontal
-        hasScrollBar: false
-        model: carModel
-        width: parent.width
-        height: 400
-        rows: 2
-        hasPageIndicator:FALSE
-        listType: HMIControls.ListViewHelper.Type_Grid
-        splitIntoPages: true
-        //            listItemHeight: 100
-        clip: false
-        //this is just an example of a possible datamodel
+        HMIControls.ListViewControl {
+            id: carListView
+            orientation: Qt.Horizontal
+            hasScrollBar: false
+            model: carModel
+            hasPageIndicator:false
+            width: parent.width
+            height: 141
+            rows: 1
+            columns: 5
+            spacing: 12
+            listType: HMIControls.ListViewHelper.Type_Grid
+            splitIntoPages: true
+            clip: true
 
-
-    }
-
-    Item {
-        width: 20
-        height: width
-    }
+        }
 
 }

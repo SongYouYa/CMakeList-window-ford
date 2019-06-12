@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.8.1, 2019-06-10T18:18:51. -->
+<!-- Written by QtCreator 4.8.1, 2019-06-12T17:10:04. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -74,7 +74,7 @@
     <valuelist type="QVariantList" key="CMake.Configuration">
      <value type="QString">CMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
      <value type="QString">CMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}</value>
-     <value type="QString">CMAKE_INSTALL_PREFIX:PATH=D:\Data_\test\01_qml</value>
+     <value type="QString">CMAKE_INSTALL_PREFIX:PATH=D:/Data_/test/01_qml</value>
      <value type="QString">CMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}</value>
      <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
     </valuelist>
@@ -479,6 +479,7 @@ D:/testcmake/CMakeList-window-ford/</value>
     <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseTerminal">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/testcmake/CMakeList-window-ford</value>
    </valuemap>

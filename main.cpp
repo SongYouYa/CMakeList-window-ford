@@ -10,6 +10,14 @@
 #include <ctime>
 #include <chrono>
 
+#include "src/utiltool/CFilterWordsLog.h"
+//#include "qmlf/tableModuleView/TableViewItem.qml"
+#define EXIT_FAILURE   -1
+
+using namespace std;
+
+
+
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -32,7 +40,7 @@ int main(int argc, char *argv[])
      ctxt->setContextProperty("defaultGallery", qgetenv("HMI_DEFAULT_GALLERY"));
     // Expose context properties for system information
 
-
+   engine.addImportPath(QDir::toNativeSeparators("D:/testcmake/CMakeList-window-ford/qmlf/tableModuleView/tableModuleView"));
     // Expose context property for the process environment
     QProcessEnvironment processEnvironment = QProcessEnvironment::systemEnvironment();
     ctxt->setContextProperty("processEnvironment", processEnvironment.toStringList());
@@ -48,6 +56,11 @@ int main(int argc, char *argv[])
 //    {
 //        std::cout << "create ThemeHelper success" << std::endl;
 //    }
+
+    qmlRegisterType<CTextQuery>("CTextQuery",1,0,"CTextQuery");
+   // qmlRegisterType<TableModel>("TableModel", 0, 1, "TableModel");
+
+
     engine.load(QUrl(QStringLiteral("qrc:/qmlf/main.qml")));
     return app.exec();
 }

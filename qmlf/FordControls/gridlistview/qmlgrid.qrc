@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Gallery.qml</file>
+        <file>GalleryExhibit.qml</file>
+        <file>FordGridViewGallery.qml</file>
+        <file>FordListViewGallery.qml</file>
+    </qresource>
+</RCC>

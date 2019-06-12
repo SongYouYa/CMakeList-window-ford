@@ -29,8 +29,7 @@
         <file>qmlf/8inch/icon-60-delete-dark-blue.png</file>
         <file>qmlf/8inch/icon-call-disable.png</file>
         <file>qmlf/QtControls/MapManuButton.qml</file>
-        <file>qmlf/FordControls/gridlistview/Gallery.qml</file>
-        <file>qmlf/FordControls/gridlistview/GalleryExhibit.qml</file>
-        <file>qmlf/FordControls/gridlistview/FordGridViewGallery.qml</file>
+        <file>qmlf/tableModuleView/TableShowWidget.qml</file>
+        <file>qmlf/tableModuleView/TableViewItem.qml</file>
     </qresource>
 </RCC>

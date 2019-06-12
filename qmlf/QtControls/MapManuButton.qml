@@ -38,15 +38,15 @@ Item {
         height:30
         onClicked: {
             //load the ford control TextPushButton
-           console.time("Loading FordTextPhotoPushButton cost times:#################################################");
+           console.time("FDGroupText#################################################");
             fordTextButtonLoader.source= "qrc:qmlf/FordControls/FordIconTextPushButton.qml"
-           console.timeEnd("Loading FordTextPhotoPushButton cost times:#################################################");
+           console.timeEnd("FDGroupText#################################################");
 
 
                //load the qt control TextPushButton
-            console.time("Loading QtTextPhotoPushButton cost times:#################################################");
+            console.time("QtGroupText#############################################");
             qtTextButtonLoader.source= "qrc:qmlf/QtControls/QtIconTextPushButton.qml"
-            console.timeEnd("Loading QtTextPhotoPushButton cost times:#################################################");
+            console.timeEnd("QtGroupText############################################");
 
         }
     }
