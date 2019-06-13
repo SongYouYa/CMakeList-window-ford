@@ -22,7 +22,7 @@ signals:
     void loadData();//no using
 
 private:
-    Q_INVOKABLE void dataConvert(const std::string &strType, const std::string &strLine, std::string &outType, std::string &outMile);
+    Q_INVOKABLE void dataConvert(const std::string &strType, const std::string &strLine, std::string &outType, std::string &outMile,int &loadtimestr);
     Q_INVOKABLE  std::ifstream& open_file(std::ifstream &in, const std::string &file);
 };
 #endif

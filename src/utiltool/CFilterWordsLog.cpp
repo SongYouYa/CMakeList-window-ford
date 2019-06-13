@@ -5,11 +5,11 @@ CTextQuery::CTextQuery(QObject *parent)
 {
 
 }
-  QVariantMap CTextQuery::getTypeAndCostTime()
+QVariantMap CTextQuery::getTypeAndCostTime()
 {
     std::ifstream infile;
-    open_file(infile,"navigation2.log");
-   QVariantMap mapData;
+    open_file(infile,"log.txt");
+    QVariantMap mapData;
     string textline;
     string tempTypes;
     while (getline(infile, textline)) {
@@ -22,10 +22,10 @@ CTextQuery::CTextQuery(QObject *parent)
         }
         string outtextmiles="";
         string outtempTypes="";
-
-        dataConvert(tempTypes,textline,outtempTypes,outtextmiles);
+        int loadtimestr=0;
+        dataConvert(tempTypes,textline,outtempTypes,outtextmiles,loadtimestr);
         if(outtempTypes.size()){
-             mapData.insert( QString::fromStdString(outtempTypes), QString::fromStdString(outtextmiles));
+            mapData.insert( QString::fromStdString(outtempTypes), QString::fromStdString(outtextmiles));
         }
 
     }
@@ -33,48 +33,25 @@ CTextQuery::CTextQuery(QObject *parent)
     return mapData;
 }
 
-void CTextQuery::dataConvert(const std::string &strType, const std::string &strLine, std::string &outType, std::string &outMile)
-{
 
-    if(strType=="RScreen-QT"){
+void CTextQuery::dataConvert(const std::string &strType, const std::string &strLine, std::string &outType, std::string &outMile,int &loadtimestr)
+{
+    if(strType=="RScreen-QT"||strType=="RScreen-FD"||strType=="QtAdFdPage"||\
+            strType=="QtGroupText"||strType=="FDGroupText"||strType=="List----Qt"\
+            ||strType=="List--Ford"||strType=="Grid----Qt"||strType=="Grid--Ford")
+    {
+          std::string tipTimes = std::to_string(loadtimestr);
+        outType=strType + tipTimes;
         outMile = strLine.substr(strLine.length()-6,6);
-        outType=strType;
+        loadtimestr++;
+
     }
-    else if(strType=="RScreen-FD"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
-    }
-    else if(strType=="QtAdFdPage"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
-    }
-    else if(strType=="QtGroupText"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
-    }
-    else if(strType=="FDGroupText"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
-    }
-    else if(strType=="List----Qt"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
-    }
-    else if(strType=="List--Ford"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
-    }
-    else if(strType=="Grid----Qt"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
-    }
-    else if(strType=="Grid--Ford"){
-        outType=strType;
-        outMile = strLine.substr(strLine.length()-6,6);
+    else{
+        outType="";
+        outMile ="";
     }
 
 }
-
 std::ifstream& CTextQuery::open_file(std::ifstream &in, const std::string &file)
 {
 

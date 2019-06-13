@@ -134,7 +134,7 @@ ApplicationWindow {
 
                 onClicked: {
                     console.time("TestDemo#################################################");
-                    stackView.push("qrc:qmlf/tableModuleView/TableShowWidget.qml")
+                    stackView.push("tableModuleView/TableShowWidget.qml")
                     console.timeEnd("TestDemo#################################################");
                     drawer.close()
                 }
