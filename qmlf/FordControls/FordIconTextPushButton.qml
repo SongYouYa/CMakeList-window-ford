@@ -5,7 +5,7 @@ import com.ford.hmicontrols 1.0 as FHC
 
 Column{
     Repeater{
-        model:5
+        model:100
         FHC.IconTextPushButton {
             text: qsTr("Call Me")
             styleId: "rightIconTextPushButtonStyle"
