@@ -31,5 +31,11 @@
         <file>qmlf/QtControls/MapManuButton.qml</file>
         <file>qmlf/tableModuleView/TableShowWidget.qml</file>
         <file>qmlf/tableModuleView/TableViewItem.qml</file>
+        <file>qmlf/FordControls/gridlistview/FordGridViewGallery.qml</file>
+        <file>qmlf/FordControls/gridlistview/FordListViewGallery.qml</file>
+        <file>qmlf/FordControls/gridlistview/Gallery.qml</file>
+        <file>qmlf/FordControls/gridlistview/GalleryExhibit.qml</file>
+        <file>themeloader.cpp</file>
+        <file>themeloader.h</file>
     </qresource>
 </RCC>

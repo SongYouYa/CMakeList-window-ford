@@ -73,7 +73,7 @@ ApplicationWindow {
 
                 onClicked: {
                     console.time("QtAdFdPage#################################################");
-                    stackView.push("qrc:qmlf/QtControls/MapManuButton.qml")
+                    stackView.push("QtControls/MapManuButton.qml")
                     console.timeEnd("QtAdFdPage#################################################");
                     drawer.close()
                 }
@@ -97,7 +97,7 @@ ApplicationWindow {
 
                 onClicked: {
                     console.time("List--Ford#################################################");
-                    stackView.push("qrc:FordListViewGallery.qml")
+                    stackView.push("FordListViewGallery.qml")
                     console.timeEnd("List--Ford#################################################");
                     drawer.close()
                 }
@@ -109,7 +109,7 @@ ApplicationWindow {
 
                 onClicked: {
                     console.time("Grid----Qt#################################################");
-                    stackView.push("qrc:qmlf/QtControls/QtGridtPushTextButtonListView.qml")
+                    stackView.push("QtControls/QtGridtPushTextButtonListView.qml")
                     console.timeEnd("Grid----Qt#################################################");
                     drawer.close()
                 }
@@ -121,7 +121,7 @@ ApplicationWindow {
 
                 onClicked: {
                     console.time("Grid--Ford#################################################");
-                    stackView.push("qrc:FordGridViewGallery.qml")
+                    stackView.push("FordGridViewGallery.qml")
                     console.timeEnd("Grid--Ford#################################################");
                     drawer.close()
                 }
@@ -145,7 +145,7 @@ ApplicationWindow {
 
     StackView {
         id: stackView
-        initialItem: "qrc:qmlf/HomeForm.qml"
+        initialItem: "HomeForm.qml"
         anchors.fill: parent
     }
 }

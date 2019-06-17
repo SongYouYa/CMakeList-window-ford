@@ -4,7 +4,7 @@ import QtQuick.Layouts 1.0
 ListView{
     id:listView
     anchors.fill: parent
-    model: 10
+    model: 100
     snapMode: ListView.SnapOneItem
     orientation:ListView.Horizontal
     delegate: Rectangle{

@@ -7,7 +7,7 @@ Item{
         signal textButtonClicked()
 
         Repeater{
-            model:5
+            model:100
             Rectangle{
                 id:contentRect
                 width: 170
