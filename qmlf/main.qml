@@ -97,7 +97,7 @@ ApplicationWindow {
 
                 onClicked: {
                     console.time("List--Ford#################################################");
-                    stackView.push("FordListViewGallery.qml")
+                    stackView.push("FordControls/gridlistview/FordListViewGallery.qml")
                     console.timeEnd("List--Ford#################################################");
                     drawer.close()
                 }
@@ -121,7 +121,7 @@ ApplicationWindow {
 
                 onClicked: {
                     console.time("Grid--Ford#################################################");
-                    stackView.push("FordGridViewGallery.qml")
+                    stackView.push("FordControls/gridlistview/FordGridViewGallery.qml")
                     console.timeEnd("Grid--Ford#################################################");
                     drawer.close()
                 }
