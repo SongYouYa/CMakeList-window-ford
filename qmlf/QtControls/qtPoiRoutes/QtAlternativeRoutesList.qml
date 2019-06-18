@@ -41,7 +41,7 @@ Item {
                     id: scrollBar
                     objectName: "scrollBar"
                     hoverEnabled: true
-                    active: hovered || pressed
+                    active: true
                     orientation: Qt.Vertical
                     size: frame.height / content.height
                     anchors.top: parent.top

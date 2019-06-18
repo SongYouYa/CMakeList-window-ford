@@ -104,19 +104,19 @@ Item{
         Rectangle {
             id: root1
             anchors{
-            top:parent.top
-            left:parent.left
+                top:parent.top
+                left:parent.left
             }
             Button {
                 id: titleBar
                 Image {
                     id: name
-                      source: "qrc:qmlf/8inch/back.png"
+                    source: "qrc:qmlf/8inch/back.png"
                 }
                 anchors.right:parent.right
                 objectName: "titleBar"
                 anchors.fill: parent
-               // text:"Routes"
+                // text:"Routes"
             }
 
 
@@ -307,57 +307,54 @@ Item{
         }
 
 
+        Rectangle{
+            id:bottomButton
+            color: "blue"
+            width:200
+            height:60
+            anchors {
+                bottom: alternativeRoutesList.bottom
+                bottomMargin: 90
+                left: parent.left
+                right: alternativeRoutesList.right
+            }
             Rectangle{
-                id:bottomButton
-                color: "blue"
-                anchors {
-                    bottom: alternativeRoutesList.bottom
-                    bottomMargin: 70
-                    left: parent.left
-                    right: alternativeRoutesList.right
-                }
-            Button{
                 id: button
-                width:200
-                height:60
-
-                ColorAnimation {
-                    from: "blue"
-                    to: "blue"
-                    duration: 200
-                }
-
-                MouseArea {
-                    anchors.fill: parent
-                    propagateComposedEvents: true
-                    onPressed: {
-                        mouse.accepted = root.isEnabled && root.routeCalculating;
-                    }
-                }
-
-
+                color:"green"
+                anchors.left: bottomButton.left
+                anchors.leftMargin: 9
                 Text {
-                    id: goButtonTextId
-                    objectName: "goButtonText"
-                    font.pixelSize: 16
-
-                    text: "Start"
+                    id: buttonName
+                    text: qsTr("Start")
+                     font.pixelSize: 20
+                     color:"white"
                 }
-
             }
-            BusyIndicator {
-                id: loadingIndicator
-                objectName: "loadingIndicator"
 
-                anchors {
-                    verticalCenter: parent.verticalCenter
-                    left: button.left
-                    leftMargin: 60
-                }
+            Text {
+                id: goButtonTextId
+                objectName: "goButtonText"
+                font.pixelSize: 16
+                color: "white"
+                anchors.left: button.right
+                anchors.leftMargin: 10
+                text: "1.2mi"
+            }
 
-                visible: true
-            }
-            }
+
+//            BusyIndicator {
+//                id: loadingIndicator
+//                objectName: "loadingIndicator"
+
+//                anchors {
+//                    verticalCenter: parent.verticalCenter
+//                    left: button.left
+//                    leftMargin: 60
+//                }
+
+//                visible: true
+//            }
+        }
 
 
 
