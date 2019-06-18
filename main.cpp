@@ -38,16 +38,14 @@ int main(int argc, char *argv[])
 //     QString packageId ="com.telenav.sync.telenav-app";
 //     qInfo() << "Telenav App package id " << packageId;
 //     qInfo() << "Telenav  theme path " << appThemePath;
-
-
-
+//D:/_Project2/ford-kipawa/hmi/bin/AppThemeData/8inchHMI_THEME_BASE
+//qputenv("HMI_APP_THEME_BASE", QDir::toNativeSeparators(appRootDir + "/AppThemeData/").toLatin1());
+//qputenv("HMI_THEME_BASE", QDir::toNativeSeparators(appRootDir + "/HMIThemeData/").toLatin1());
 //     themeLoader->loadAppTheme(packageId, appThemePath);
- if (qgetenv("PACKAGE_ID").isEmpty()) { // qnx not ALM installation or window
+// if (qgetenv("PACKAGE_ID").isEmpty()) { // qnx not ALM installation or window
 
-      qputenv("HMI_APP_THEME_BASE", QDir::toNativeSeparators(appRootDir + "/AppThemeData/8inch").toLatin1());
-}
-
-
+//      qputenv("HMI_APP_THEME_BASE", QDir::toNativeSeparators(appRootDir + "/AppThemeData/8inch").toLatin1());
+//}
      engine.rootContext()->setContextProperty("applicationDirPath", appRootDir);
      ctxt->setContextProperty("defaultGallery", qgetenv("HMI_DEFAULT_GALLERY"));
     // Expose context properties for system information

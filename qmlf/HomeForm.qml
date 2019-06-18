@@ -5,19 +5,30 @@ Page {
     width: 1200
     height: 1920
 
-    title: qsTr("Testing FORD AND QT CONTROL WINDOW")
-
+    title: qsTr("NavigationTool")
     Label {   
         Text {
-               font.pointSize: 20
-               text: "Testing FORD AND QT CONTROL WINDOW!"
+              text: "Testing FORD AND QT CONTROL WINDOW!"
+              font.family: "Helvetica"
+              font.pointSize: 24
+              color: "blue"
            }
      anchors{
       left: parent.left
-      leftMargin: 230
+      leftMargin: 100
       top: parent.top
-      topMargin: 300
+      topMargin: 120
+     }
+    }
+     Image {
+         id: topbarbackground
+         source: "qrc:qmlf/8inch/telenavphoto.PNG"
+         anchors.fill: parent
+         fillMode:Image.PreserveAspectFit
+         width: 1200
+         height: 1920
+
      }
 
-    }
+
 }

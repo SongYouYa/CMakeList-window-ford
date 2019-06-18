@@ -8,13 +8,19 @@ import QtQuick.Controls.Styles 1.4
 ApplicationWindow {
     id: window
     visible: true
-    width: 1200
-    height: 1920
+    width: 800
+    height: 500
     title: qsTr("test QuickControl FORD VS QT ")
 
     header: ToolBar {
+        id:toobar
         contentHeight: toolButton.implicitHeight
-
+        Image {
+            id: topbarbackground
+            source: "qrc:qmlf/8inch/titlebar.PNG"
+            anchors.left: window.left
+            height: 40
+        }
         ToolButton {
             id: toolButton
             text: stackView.depth > 1 ? "\u25C0" : "\u2630"
@@ -126,7 +132,32 @@ ApplicationWindow {
                     drawer.close()
                 }
             }
+              ///******************************PoiRouterList*********************////
+            ItemDelegate {
 
+                text: qsTr("Route-Ford")
+                width: parent.width
+
+                onClicked: {
+                    console.time("RouterList#################################################");
+                    stackView.push("FordControls/poiRoutes/PoiRoutes.qml")
+                    console.timeEnd("RouterList#################################################");
+                    drawer.close()
+                }
+            }
+
+            ItemDelegate {
+
+                text: qsTr("Route-Qt")
+                width: parent.width
+
+                onClicked: {
+                    console.time("Router--Qt#################################################");
+                    stackView.push("QtControls/qtPoiRoutes/QtPoiRoutes.qml")
+                    console.timeEnd("Router--Qt#################################################");
+                    drawer.close()
+                }
+            }
             /*   testDemo */
             ItemDelegate {
                 text: qsTr("ShowResult")

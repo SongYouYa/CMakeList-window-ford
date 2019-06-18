@@ -37,5 +37,18 @@
         <file>qmlf/FordControls/gridlistview/GalleryExhibit.qml</file>
         <file>themeloader.cpp</file>
         <file>themeloader.h</file>
+        <file>qmlf/FordControls/poiRoutes/PoiRoutes.qml</file>
+        <file>qmlf/FordControls/poiRoutes/StartButton.qml</file>
+        <file>qmlf/8inch/map.png</file>
+        <file>qmlf/8inch/toolbar.jpg</file>
+        <file>qmlf/8inch/toolbar1.png</file>
+        <file>qmlf/8inch/skybackground.png</file>
+        <file>qmlf/8inch/skybackground2.png</file>
+        <file>qmlf/8inch/telenavBackground.PNG</file>
+        <file>qmlf/8inch/telenavebac.png</file>
+        <file>qmlf/8inch/telenavphoto.PNG</file>
+        <file>qmlf/8inch/titlebar.PNG</file>
+        <file>qmlf/QtControls/qtPoiRoutes/QtPoiRoutes.qml</file>
+        <file>qmlf/8inch/back.png</file>
     </qresource>
 </RCC>
