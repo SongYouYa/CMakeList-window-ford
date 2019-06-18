@@ -318,14 +318,21 @@ Item{
         }
 
 
-        Rectangle{
-            anchors {
-                bottom: alternativeRoutesList.bottom
-                left: parent.left
-                right: alternativeRoutesList.right
-            }
+
             Button{
                 id: button
+                width:100
+                height:20
+                ColorAnimation {
+                    from: "blue"
+                    to: "blue"
+                    duration: 200
+                }
+                anchors {
+                    bottom: alternativeRoutesList.bottom
+                    left: parent.left
+                    right: alternativeRoutesList.right
+                    bottomMargin: 80
                 Text {
                     id: goButtonTextId
                     objectName: "goButtonText"

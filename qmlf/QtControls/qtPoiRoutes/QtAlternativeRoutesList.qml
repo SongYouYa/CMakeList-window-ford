@@ -65,7 +65,7 @@ Item {
 
                     for (var i = 0; i < characteristics.length; ++i) {
                         if (characteristics[i] == RoutingTypes.HAS_NATIONAL_BORDER) {
-                            routeInfoString += translatedStrings["KIPRoutesCountryBorder"];
+                            routeInfoString += "KIPRoutesCountryBorder";
                         }
                     }
                     return routeInfoString;

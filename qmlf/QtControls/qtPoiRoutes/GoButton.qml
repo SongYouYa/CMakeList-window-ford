@@ -45,7 +45,7 @@ Rectangle{
 
         anchors.fill: parent
         enabled: root.isEnabled
-
+        text: "Start"
         onClicked: {
             if (!routeCalculating)
             root.buttonActivated();
@@ -60,42 +60,5 @@ Rectangle{
         }
     }
 
-   Text {
-        id: goButtonTextId
-        objectName: "goButtonText"
-
-        anchors {
-            top: parent.top
-            left: parent.left
-            right: timeText.left
-        }
-        text: "Start"
-    }
-
-    Text {
-        objectName: "durationText"
-        id: timeText
-
-        anchors {
-            top: parent.top
-            right: parent.right
-        }
-
-        text: "2 min"
-        width: text.width
-        visible: root.isEnabled && !root.routeCalculating
-    }
-
-    BusyIndicator {
-        id: loadingIndicator
-        objectName: "loadingIndicator"
-
-        anchors {
-            verticalCenter: parent.verticalCenter
-            right: parent.right
-        }
-
-        visible: root.isEnabled && root.routeCalculating
-    }
 }
 }
