@@ -151,34 +151,34 @@ Item{
 
         ListModel {
             id:listModelofPoi
-            ListElement { place:"Home"; details: "Set up and ge  there form anywhere"; distance:"3.3mi"}
-            ListElement { place:"KFC"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
+            ListElement { place:"HomeKFC 12653 mICHIGAN Ave,Dern"; details: "Set up and ge  there form anywhere"; distance:"3.3mi"}
+            ListElement { place:"KFC653 mICHIGAN Ave"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
+            ListElement { place:"Amarican653 mICHIGAN Ave"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
+            ListElement { place:"5712 Michigan Ave,Dearborn"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
+            ListElement { place:"Cria653 mICHIGAN Aven";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "5.4mi" }
+            ListElement { place:"Srtgf5712 Michigan Ave,Dearborn";details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
+            ListElement { place:"Dlalihne653 mICHIGAN Ave";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
+            ListElement { place:"UkAve,Dearborn,MI 453"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
+            ListElement { place:"HomKFC653 mICHIGAN Avee"; details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
+            ListElement { place:"KFCAve,Dearborn,MI 453"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
             ListElement { place:"Amarican"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
-            ListElement { place:"China"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
-            ListElement { place:"Crian";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "5.4mi" }
-            ListElement { place:"Srtgf";details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
+            ListElement { place:"ChKFC653 mICHIGAN Aveina"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
+            ListElement { place:"CrKFC653 mICHIGAN Aveian";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "5.4mi" }
+            ListElement { place:"SrKFC653 mICHIGAN Avetgf";details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
             ListElement { place:"Dlalihne";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
+            ListElement { place:"UKFC653 mICHIGAN Avek"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
+            ListElement { place:"HoKFC653 mICHIGAN Aveme"; details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
+            ListElement { place:"KFKFC653 mICHIGAN AveC"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
+            ListElement { place:"AKFC653 mICHIGAN Avemarican"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
+            ListElement { place:"ChKFC653 mICHIGAN Aveina"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
+            ListElement { place:"CrianKFC653 mICHIGAN Ave";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "5.4mi" }
+            ListElement { place:"SrtgfKFC653 mICHIGAN Ave";details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
+            ListElement { place:"DlalihneKFC653 mICHIGAN Ave";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
             ListElement { place:"Uk"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
-            ListElement { place:"Home"; details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
-            ListElement { place:"KFC"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
-            ListElement { place:"Amarican"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
-            ListElement { place:"China"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
-            ListElement { place:"Crian";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "5.4mi" }
-            ListElement { place:"Srtgf";details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
-            ListElement { place:"Dlalihne";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
-            ListElement { place:"Uk"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
-            ListElement { place:"Home"; details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
-            ListElement { place:"KFC"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
-            ListElement { place:"Amarican"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
-            ListElement { place:"China"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
-            ListElement { place:"Crian";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "5.4mi" }
-            ListElement { place:"Srtgf";details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
-            ListElement { place:"Dlalihne";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
-            ListElement { place:"Uk"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
-            ListElement { place:"Home"; details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
-            ListElement { place:"KFC"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
-            ListElement { place:"Amarican"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
-            ListElement { place:"China"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
+            ListElement { place:"KFC653 mICHIGAN AveHome"; details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
+            ListElement { place:"KFC653 mICHIGAN AveKFC"; details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
+            ListElement { place:"AmarKFC653 mICHIGAN Aveican"; details: "15712 Michigan Ave,Dearborn,MI 45343... "; distance: "5.3mi"}
+            ListElement { place:"ChinaKFC653 mICHIGAN Ave"; details: "4603 Westland st, Dearborn, MI 48126......"; distance: "5.3mi" }
             ListElement { place:"Crian";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "5.4mi" }
             ListElement { place:"Srtgf";details: "Set up and ge  there form anywhere"; distance: "3.3mi"}
             ListElement { place:"Dlalihne";details: "KFC 12653 mICHIGAN Ave,Dearborn,MI 48..."; distance: "1.4mi"}
@@ -276,7 +276,7 @@ Item{
                     id: lablemile
                     text:distance
                     anchors.left: parent.left
-                    anchors.leftMargin: 300
+                    anchors.leftMargin: 340
                     font.pixelSize: 12
 
                 }
@@ -312,9 +312,10 @@ Item{
             color: "blue"
             width:200
             height:60
+            radius: 10
             anchors {
                 bottom: alternativeRoutesList.bottom
-                bottomMargin: 90
+                bottomMargin: 65
                 left: parent.left
                 right: alternativeRoutesList.right
             }
@@ -337,23 +338,23 @@ Item{
                 font.pixelSize: 16
                 color: "white"
                 anchors.left: button.right
-                anchors.leftMargin: 10
+                anchors.leftMargin:320
                 text: "1.2mi"
             }
 
 
-//            BusyIndicator {
-//                id: loadingIndicator
-//                objectName: "loadingIndicator"
+            BusyIndicator {
+                id: loadingIndicator
+                objectName: "loadingIndicator"
 
-//                anchors {
-//                    verticalCenter: parent.verticalCenter
-//                    left: button.left
-//                    leftMargin: 60
-//                }
+                anchors {
+                    verticalCenter: parent.verticalCenter
+                    left: button.left
+                    leftMargin: 300
+                }
 
-//                visible: true
-//            }
+                visible: true
+            }
         }
 
 
@@ -363,6 +364,7 @@ Item{
             objectName: "mapViewBackground"
             anchors{
                 left:alternativeRoutesList.right
+                leftMargin: 2
                 top:alternativeRoutesList.top
             }
             Image {

@@ -16,13 +16,17 @@ Item {
         contentWidth: parent.width * 2
         contentHeight: parent.height * 2
 
-        //               ScrollBar.horizontal: ScrollBar { id: hbar; active: vbar.active }
-        //               ScrollBar.vertical: ScrollBar { id: vbar; active: hbar.active }
+                       ScrollBar.horizontal: ScrollBar { id: hbar; active: vbar.active }
+                       ScrollBar.vertical: ScrollBar { id: vbar; active: hbar.active }
         ScrollView{
             ScrollBar.vertical.policy: ScrollBar.AlwaysOn
             ListView {
                 id: alternativeRoutesList
                 objectName: "alternativeRoutesList"
+                Image {
+                    anchors.fill: parent
+                    source: "qrc:qmlf/8inch/bg-pop-up-no-headline.png"
+                }
                 anchors {
                     top: parent.top
                     left: parent.left

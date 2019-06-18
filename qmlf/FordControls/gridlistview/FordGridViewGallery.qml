@@ -50,7 +50,7 @@ Item {
         width: parent.width
         height: 400
         rows: 2
-        hasPageIndicator:FALSE
+        hasPageIndicator:true
         listType: HMIControls.ListViewHelper.Type_Grid
         splitIntoPages: true
         //            listItemHeight: 100
