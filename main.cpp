@@ -9,7 +9,9 @@
 #include "src/utiltool/CFilterWordsLog.h"
 
 #define EXIT_FAILURE   -1
-
+/*HMI_APP_THEME_BASE=D:/_Project/ford-kipawa/hmi/out/bin/AppThemeData/8inch
+HMI_THEME_BASE=D:/Data_/telenav/ford_sdk/SYNC_HMI_SDK_v0.0.129/HMIThemeData
+LD_LIBRARY_PATH=D:/Data_/telenav/ford_sdk\SYNC_HMI_SDK_v0.0.129/build */
 using namespace std;
 
 int main(int argc, char *argv[])
