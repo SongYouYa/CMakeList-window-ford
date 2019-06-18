@@ -16,7 +16,8 @@ Item {
         contentWidth: parent.width * 2
         contentHeight: parent.height * 2
 
-        ScrollBar.vertical: ScrollBar { id: vbar; active: hbar.active }
+        //               ScrollBar.horizontal: ScrollBar { id: hbar; active: vbar.active }
+        //               ScrollBar.vertical: ScrollBar { id: vbar; active: hbar.active }
         ScrollView{
             ScrollBar.vertical.policy: ScrollBar.AlwaysOn
             ListView {
@@ -44,7 +45,6 @@ Item {
                     orientation: Qt.Vertical
                     size: frame.height / content.height
                     anchors.top: parent.top
-                    anchors.left:alternativeRoutesList.right
                     anchors.right: parent.right
                     anchors.bottom: parent.bottom
                 }
@@ -65,7 +65,7 @@ Item {
 
                     for (var i = 0; i < characteristics.length; ++i) {
                         if (characteristics[i] == RoutingTypes.HAS_NATIONAL_BORDER) {
-                            routeInfoString += "KIPRoutesCountryBorder";
+                            routeInfoString += translatedStrings["KIPRoutesCountryBorder"];
                         }
                     }
                     return routeInfoString;

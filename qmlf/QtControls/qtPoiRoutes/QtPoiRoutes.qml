@@ -114,8 +114,6 @@ Item{
                       source: "qrc:qmlf/8inch/back.png"
                 }
                 anchors.right:parent.right
-                anchors.left: root1.right
-                anchors.rightMargin: 60
                 objectName: "titleBar"
                 anchors.fill: parent
                // text:"Routes"
@@ -321,8 +319,9 @@ Item{
 
             Button{
                 id: button
-                width:100
-                height:20
+                width:200
+                height:40
+
                 ColorAnimation {
                     from: "blue"
                     to: "blue"
@@ -330,9 +329,19 @@ Item{
                 }
                 anchors {
                     bottom: alternativeRoutesList.bottom
+                    bottomMargin: 70
                     left: parent.left
                     right: alternativeRoutesList.right
-                    bottomMargin: 80
+                }
+                MouseArea {
+                    anchors.fill: parent
+                    propagateComposedEvents: true
+                    onPressed: {
+                        mouse.accepted = root.isEnabled && root.routeCalculating;
+                    }
+                }
+
+
                 Text {
                     id: goButtonTextId
                     objectName: "goButtonText"
@@ -342,7 +351,7 @@ Item{
                 }
 
             }
-        }
+
 
 
         Rectangle {

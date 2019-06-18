@@ -45,7 +45,7 @@ Rectangle{
 
         anchors.fill: parent
         enabled: root.isEnabled
-        text: "Start"
+  text: "Start"
         onClicked: {
             if (!routeCalculating)
             root.buttonActivated();
@@ -59,6 +59,7 @@ Rectangle{
             }
         }
     }
+
 
 }
 }
