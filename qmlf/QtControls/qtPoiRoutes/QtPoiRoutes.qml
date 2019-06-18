@@ -304,35 +304,29 @@ Item{
                 active: activeBusyIndicator
             }
 
-            Component {
-                id: loadingIndicator
-                BusyIndicator {
-                    objectName: "loadingIndicator"
-                    height: 54
-                    width: 54
-                }
-
-            }
         }
 
 
-
-            Button{
-                id: button
-                width:200
-                height:40
-
-                ColorAnimation {
-                    from: "blue"
-                    to: "blue"
-                    duration: 200
-                }
+            Rectangle{
+                id:bottomButton
+                color: "blue"
                 anchors {
                     bottom: alternativeRoutesList.bottom
                     bottomMargin: 70
                     left: parent.left
                     right: alternativeRoutesList.right
                 }
+            Button{
+                id: button
+                width:200
+                height:60
+
+                ColorAnimation {
+                    from: "blue"
+                    to: "blue"
+                    duration: 200
+                }
+
                 MouseArea {
                     anchors.fill: parent
                     propagateComposedEvents: true
@@ -350,6 +344,19 @@ Item{
                     text: "Start"
                 }
 
+            }
+            BusyIndicator {
+                id: loadingIndicator
+                objectName: "loadingIndicator"
+
+                anchors {
+                    verticalCenter: parent.verticalCenter
+                    left: button.left
+                    leftMargin: 60
+                }
+
+                visible: true
+            }
             }
 
 
