@@ -98,6 +98,7 @@ set(QT5_X_LIBS
     "qmlf/QtControls/qtPoiRoutes/GoButton.qml"
     "qmlf/QtControls/qtPoiRoutes/TitleBar.qml"
     "qmlf/QtControls/qtPoiRoutes/AlternativeRoutesTopBar.qml"
+    "qmlf/MessageLabel.qml"
 
     )
 

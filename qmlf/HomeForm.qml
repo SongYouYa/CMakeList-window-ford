@@ -1,25 +1,17 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.2
 
+
 Page {
     width: 1200
     height: 1920
 
     title: qsTr("NavigationTool")
-    Label {   
-        Text {
-              text: "Testing FORD AND QT CONTROL WINDOW!"
-              font.family: "Helvetica"
-              font.pointSize: 24
-              color: "blue"
-           }
-     anchors{
-      left: parent.left
-      leftMargin: 20
-      top: parent.top
-      topMargin: 120
-     }
-    }
+    MessageLabel {
+           width: parent.width - 2
+           message: "A critical warning!"
+           msgType: "critical"
+       }
      Image {
          id: topbarbackground
          source: "qrc:qmlf/8inch/telenavphoto.PNG"

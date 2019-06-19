@@ -50,5 +50,6 @@
         <file>qmlf/8inch/titlebar.PNG</file>
         <file>qmlf/QtControls/qtPoiRoutes/QtPoiRoutes.qml</file>
         <file>qmlf/8inch/back.png</file>
+        <file>qmlf/MessageLabel/MessageLabel.qml</file>
     </qresource>
 </RCC>

@@ -73,7 +73,6 @@ Item {
         {"label":"Focus 6", "icon":"blindSpotDetection"},
         {"label":"Fusion 6", "icon":"crossTrafficAlert"},
         {"label":"C-Max 6", "icon":"wrongWayAlert"},
-
         {"label":"Fusion 6", "icon":"laneKeeping"},
         {"label":"C-Max 6", "icon":"preCollision"},
         {"label":"Mustang 6", "icon":"trafficSignRecognition"},
