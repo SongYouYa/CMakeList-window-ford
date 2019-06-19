@@ -12,6 +12,7 @@ QVariantMap CTextQuery::getTypeAndCostTime()
     QVariantMap mapData;
     string textline;
     string tempTypes;
+   int loadtimestr=0;
     while (getline(infile, textline)) {
         //根据类型进行存储为map格式
         //judge the row is  not empty
@@ -21,8 +22,7 @@ QVariantMap CTextQuery::getTypeAndCostTime()
             break;
         }
         string outtextmiles="";
-        string outtempTypes="";
-        int loadtimestr=0;
+        string outtempTypes="";     
         dataConvert(tempTypes,textline,outtempTypes,outtextmiles,loadtimestr);
         if(outtempTypes.size()){
             mapData.insert( QString::fromStdString(outtempTypes), QString::fromStdString(outtextmiles));
@@ -38,7 +38,7 @@ void CTextQuery::dataConvert(const std::string &strType, const std::string &strL
 {
     if(strType=="RScreen-QT"||strType=="RScreen-FD"||strType=="QtAdFdPage"||\
             strType=="QtGroupText"||strType=="FDGroupText"||strType=="List----Qt"\
-            ||strType=="List--Ford"||strType=="Grid----Qt"||strType=="Grid--Ford")
+            ||strType=="List--Ford"||strType=="Grid----Qt"||strType=="Grid--Ford"||strType=="Router--Qt"||strType=="RouterFord")
     {
           std::string tipTimes = std::to_string(loadtimestr);
         outType=strType + tipTimes;

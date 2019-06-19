@@ -38,9 +38,9 @@ Item {
         height:30
         onClicked: {
             //load the ford control TextPushButton
-           console.time("FDGroupText#################################################");
-            fordTextButtonLoader.source= "qrc:qmlf/FordControls/FordIconTextPushButton.qml"
-           console.timeEnd("FDGroupText#################################################");
+          // console.time("FDGroupText#################################################");
+          //  fordTextButtonLoader.source= "qrc:qmlf/FordControls/FordIconTextPushButton.qml"
+          // console.timeEnd("FDGroupText#################################################");
 
 
                //load the qt control TextPushButton

@@ -6,8 +6,8 @@
 #include <chrono>
 #include "themeloader.h"
 
-#include <controls/themehelper.h>
-#include "src/utiltool/CFilterWordsLog.h"
+//#include <controls/themehelper.h>
+//#include "src/utiltool/CFilterWordsLog.h"
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -15,17 +15,17 @@ int main(int argc, char *argv[])
     QQmlContext *ctxt = engine.rootContext();
     const QString appRootDir = app.applicationDirPath();
     //register themeLoader class
-    QPointer<ThemeLoader> themeLoader = new ThemeLoader();
-    engine.rootContext()->setContextProperty("themeLoader", themeLoader);
+   // QPointer<ThemeLoader> themeLoader = new ThemeLoader();
+   // engine.rootContext()->setContextProperty("themeLoader", themeLoader);
     engine.rootContext()->setContextProperty("applicationDirPath", appRootDir);
-    qmlRegisterType<CTextQuery>("CTextQuery", 1, 0, "CTextQuery");
+    //qmlRegisterType<CTextQuery>("CTextQuery", 1, 0, "CTextQuery");
 
     //load the theme
     QString packageId = "com.telenav.sync.telenav-app";
     QString appThemePath = appRootDir + "/AppThemeData/8inch/Ford-MY20-nav";
     qInfo() << "Telenav App package id " << packageId;
     qInfo() << "Telenav  theme path " << appThemePath;
-    themeLoader->loadAppTheme(packageId, appThemePath);
+   // themeLoader->loadAppTheme(packageId, appThemePath);
 qputenv("PACKAGE_ID", QDir::toNativeSeparators("com.telenav.sync.telenav-app").toLatin1());
     if (qgetenv("PACKAGE_ID").isEmpty()) { // qnx not ALM installation or window
         qInfo() << "Telenav App package is empty ";
