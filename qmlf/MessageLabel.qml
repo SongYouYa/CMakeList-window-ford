@@ -12,9 +12,9 @@ Rectangle {
         padding: 5.0
         spacing: 2
         anchors.top: parent.top
-        anchors.topMargin: 160
+       // anchors.topMargin: 160
         anchors.left: parent.left
-        anchors.leftMargin: 120
+       // anchors.leftMargin: 120
         Text {
             text: "Machine is status of Running....."
             font.pointSize: 20

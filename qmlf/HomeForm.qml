@@ -8,10 +8,18 @@ Page {
 
     title: qsTr("NavigationTool")
     MessageLabel {
+        id:meslabel
            width: parent.width - 2
            message: "A critical warning!"
            msgType: "critical"
        }
+    PhotoFlow{
+      id:photoflow
+      anchors.top: meslabel.bottom
+      anchors.left: meslabel.left
+
+
+    }
      Image {
          id: topbarbackground
          source: "qrc:qmlf/8inch/telenavphoto.PNG"

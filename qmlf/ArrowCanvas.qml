@@ -1,4 +1,5 @@
 import QtQuick 2.12
+
 Canvas {
     id: canvas
     readonly property int internalArrowWidth: 50
