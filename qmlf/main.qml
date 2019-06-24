@@ -9,7 +9,7 @@ ApplicationWindow {
     id: window
     visible: true
     width: 800
-    height: 500
+    height: 480
     title: qsTr("test QuickControl FORD VS QT ")
 
     header: ToolBar {

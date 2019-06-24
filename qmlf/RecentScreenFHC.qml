@@ -131,7 +131,7 @@ Item {
             clip: true
             boundsBehavior: Flickable.StopAtBounds
             model: listModel
-            cacheBuffer:208
+            //cacheBuffer:208
             delegate:
                 InteractiveListDelegate {
                 width: parent.width

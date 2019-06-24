@@ -51,5 +51,11 @@
         <file>qmlf/QtControls/qtPoiRoutes/QtPoiRoutes.qml</file>
         <file>qmlf/8inch/back.png</file>
         <file>qmlf/MessageLabel/MessageLabel.qml</file>
+        <file>qmlf/CoverFlow.qml</file>
+        <file>qmlf/8inch/photoflow/images.jpg</file>
+        <file>qmlf/8inch/photoflow/mountain.jpg</file>
+        <file>qmlf/8inch/photoflow/ocean.jpg</file>
+        <file>qmlf/8inch/photoflow/river.jpg</file>
+        <file>qmlf/8inch/photoflow/tree.jpg</file>
     </qresource>
 </RCC>

@@ -99,6 +99,9 @@ set(QT5_X_LIBS
     "qmlf/QtControls/qtPoiRoutes/TitleBar.qml"
     "qmlf/QtControls/qtPoiRoutes/AlternativeRoutesTopBar.qml"
     "qmlf/MessageLabel.qml"
+    "qmlf/CoverFlow.qml"
+    "qmlf/MyDelegate.qml"
+    "qmlf/PhotoFlow.qml"
 
     )
 

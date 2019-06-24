@@ -1,18 +1,21 @@
 
 import QtQuick 2.3
 import QtQuick.Window 2.2
-import QtQuick.Controls 1.4
+import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.1
-
-ScrollView{
-    id:scrollid
+Flickable {
     anchors.fill: parent
-    flickableItem.onMovementEnded: {
-        console.log("onMovementEnded")
-    }
+    contentWidth: parent.width * 2
+    contentHeight: parent.height * 2
 
+    ScrollBar.horizontal: ScrollBar { id: hbar; active: vbar.active }
+    ScrollBar.vertical: ScrollBar { id: vbar; active: hbar.active }
 
+    ScrollView{
+        id:scrollid
+        anchors.fill: parent
         visible: true
+
         Rectangle{
             GridLayout{
                 columns: 50
@@ -90,6 +93,7 @@ ScrollView{
 
     }
 
+}
 
 
 
